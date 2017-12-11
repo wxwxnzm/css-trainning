@@ -9,3 +9,8 @@
 
 .h40 {
   height: 40px; }
+
+.ly-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
