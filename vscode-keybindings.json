@@ -1,0 +1,128 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        // 新建文件 
+        "key": "ctrl+numpad7",
+        "command": "explorer.newFile"
+    },
+    {
+        // 移动行上
+        "key": "ctrl+alt+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        // 移动行下
+        "key": "ctrl+alt+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        // 光标返回上次编辑位置
+        "key": "ctrl+u",
+        "command": "cursorUndo",
+        "when": "editorTextFocus"
+    },
+    {
+        // 删除光标右边的代码（当前行）
+        "key": "ctrl+delete",
+        "command": "deleteWordRight",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        // 代码格式化
+        "key": "ctrl+shift+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        // 多行注释
+        "key": "ctrl+shift+/",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus"
+    },
+    {
+        // 删除代码
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        // 替换
+        "key": "ctrl+r",
+        "command": "editor.action.startFindReplaceAction"
+    },
+    {
+        // 选中全部查找的内容
+        "key": "alt+enter",
+        "command": "editor.action.selectAllMatches",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        // 选中行（没啥用）
+        "key": "ctrl+i",
+        "command": "expandLineSelection",
+        "when": "editorTextFocus"
+    },
+    {
+        // 反向缩进
+        "key": "shift+tab",
+        "command": "outdent",
+        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        // 减少选择（不太好用）
+        "key": "shift+alt+left",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+    },
+    {
+        // 阔选
+        "key": "ctrl+w",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        // 提示
+        "key": "ctrl+q",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        // 方法的参数提示
+        "key": "ctrl+shift+q",
+        "command": "editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        // 放大屏幕
+        "key": "ctrl+oem_plus",
+        "command": "workbench.action.zoomIn"
+    },
+    {
+        // 缩小屏幕
+        "key": "ctrl+oem_minus",
+        "command": "workbench.action.zoomOut"
+    },
+    {
+        // 跳到指定的行
+        "key": "ctrl+g",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        // 打开最近的打开过的文件夹列表
+        "key": "ctrl+e",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        // 打开集成终端
+        "key": "ctrl+oem_3",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        // 打开markdown结果
+        "key": "ctrl+m",
+        "command": "markdown.showPreview",
+        "when": "editorLangId == 'markdown'"
+    },
+]
