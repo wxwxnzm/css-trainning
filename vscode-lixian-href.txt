@@ -1,0 +1,9 @@
+https://dbaeumer.gallery.vsassets.io/_apis/public/gallery/publisher/dbaeumer/extension/vscode-eslint/1.4.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+https://michelemelluso.gallery.vsassets.io/_apis/public/gallery/publisher/michelemelluso/extension/code-beautifier/1.7.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+https://donjayamanne.gallery.vsassets.io/_apis/public/gallery/publisher/donjayamanne/extension/githistory/0.2.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+https://ecmel.gallery.vsassets.io/_apis/public/gallery/publisher/ecmel/extension/vscode-html-css/0.1.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+https://lonefy.gallery.vsassets.io/_apis/public/gallery/publisher/lonefy/extension/vscode-JS-CSS-HTML-formatter/0.2.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+https://eg2.gallery.vsassets.io/_apis/public/gallery/publisher/eg2/extension/vscode-npm-script/0.3.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+https://jcbuisson.gallery.vsassets.io/_apis/public/gallery/publisher/jcbuisson/extension/vue/0.1.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+https://peakchen90.gallery.vsassets.io/_apis/public/gallery/publisher/peakchen90/extension/vue-beautify/2.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
