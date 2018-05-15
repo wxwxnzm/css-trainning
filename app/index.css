@@ -1,0 +1,60 @@
+/* 
+    mr10 -> margin-right: 10px;
+    mt10 -> margin-top: 10px;
+    mb10 -> margin-bottom: 10px;
+    lh12 -> line-height: 12px;
+    zi1 -> z-index: 1;
+    w100 -> width: 100px;
+    h12 -> height: 12px; 
+    if you need other value, please push into the map you wanna set
+*/
+.mr10 {
+  margin-right: 10px; }
+
+.mr12 {
+  margin-right: 12px; }
+
+.ml10 {
+  margin-left: 10px; }
+
+.mt10 {
+  margin-top: 10px; }
+
+.mt66 {
+  margin-top: 66px; }
+
+.mb16 {
+  margin-bottom: 16px; }
+
+.fs12 {
+  font-size: 12px; }
+
+.fs13 {
+  font-size: 13px; }
+
+.fs14 {
+  font-size: 14px; }
+
+.fs20 {
+  font-size: 20px; }
+
+.fs28 {
+  font-size: 28px; }
+
+.lh12 {
+  line-height: 12px; }
+
+.lh13 {
+  line-height: 13px; }
+
+.w136 {
+  width: 136px; }
+
+.zi1 {
+  z-index: 1; }
+
+.h12 {
+  height: 12px; }
+
+.br3 {
+  border-radius: 3px; }

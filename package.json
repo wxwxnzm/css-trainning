@@ -171,7 +171,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^3.2.1",
     "node-sass": "^4.7.2"
   },
   "scripts": {

@@ -1,5 +1,0 @@
-@each $len in 10,20,30,40 {
-    .h#{$len} {
-        height: #{$len}px;
-    }
-}
