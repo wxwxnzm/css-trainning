@@ -6,19 +6,23 @@
     zi1 -> z-index: 1;
     w100 -> width: 100px;
     h12 -> height: 12px; 
+    b0 -> bottom: 0px;
+    r0 -> right: 0px;
     if you need other value, please push into the map you wanna set
 */
 
 $mrMap: 10 12;
 $mlMap: 10;
 $mtMap: 10 66;
-$mbMap: 16;
+$mbMap: 10 16;
 $fsMap: 12 13 14 20 28;
 $lhMap: 12 13;
 $ziMap: 1;
 $widthMap: 136;
 $heightMap: 12;
 $borderRadiusMap: 3;
+$bottomMap: 0;
+$rightMap: 0;
 @each $len in $mrMap {
     .mr#{$len} {
         margin-right: #{$len}px;
@@ -76,5 +80,15 @@ $borderRadiusMap: 3;
 @each $len in $borderRadiusMap {
     .br#{$len} {
         border-radius: #{$len}px;
+    }
+}
+@each $len in $bottomMap {
+    .b#{$len} {
+        bottom: #{$len}px;
+    }
+}
+@each $len in $rightMap {
+    .r#{$len} {
+        right: #{$len}px;
     }
 }
