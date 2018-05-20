@@ -10,3 +10,16 @@
       box-shadow: $top $left $blur $color;
     }
 }
+
+.pointer {
+  cursor: pointer;
+}
+.tr2 {
+  transition: all .2s;
+}
+.abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

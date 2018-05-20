@@ -1,5 +1,31 @@
 .df {
+    display: box; // android 4.4-
+    display: -webkit-box; // ios 6-,safari3-6
+    display: -moz-box; // ff19-
+    display: -ms-flexbpx; // IE10
+    display: -webkit-flex;
     display: flex;
+    &.h-center{
+         /* 09版 */
+        -webkit-box-pack: center;
+        /* 12版 */
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -o-justify-content: center;
+        justify-content: center;
+
+    }
+    &.v-center {
+        /* 09版 */
+        -webkit-box-align: center;
+        /* 12版 */
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+    }
 }
 .di {
     display: inline;
