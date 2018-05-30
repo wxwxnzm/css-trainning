@@ -17,7 +17,7 @@
 // @mbMap: 10 16;
 @fsMap: 12 13 14 20 28;
 // @lhMap: 12 13;
-// @ziMap: 1;
+@ziMap: 1;
 // @widthMap: 136;
 // @heightMap: 12;
 // @borderRadiusMap: 3;
@@ -25,14 +25,15 @@
 // @rightMap: 0;
 
 
-.Loop(@key, @list, @i: 1) when (@i <= length(@list)) {
+.Loop(@key, @v, @unit, @list, @i: 1) when (@i <= length(@list)) {
     @item: extract(@list, @i);
     .@{key}@{item} {
-      font-size: @item + 0px;
+      @{v}: @item + @unit;
     }
-    .Loop(@key, @list, @i + 1);
+    .Loop(@key, @v, @unit, @list, @i + 1);
 }
-.Loop(fs, @fsMap);
+.Loop(fs, font-size, 0px, @fsMap);
+.Loop(zi, z-index,  0, @ziMap);
 
 
 // @each $len in $mrMap {
