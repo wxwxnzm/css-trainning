@@ -1,0 +1,106 @@
+/* 
+    mr10 -> margin-right: 10px;
+    mt10 -> margin-top: 10px;
+    mb10 -> margin-bottom: 10px;
+    lh12 -> line-height: 12px;
+    zi1 -> z-index: 1;
+    w100 -> width: 100px;
+    h12 -> height: 12px; 
+    b0 -> bottom: 0px;
+    r0 -> right: 0px;
+    if you need other value, please push into the map you wanna set
+*/
+
+@mrMap: 10 12;
+// @mlMap: 10;
+// @mtMap: 10 66;
+// @mbMap: 10 16;
+@fsMap: 12 13 14 20 28;
+// @lhMap: 12 13;
+// @ziMap: 1;
+// @widthMap: 136;
+// @heightMap: 12;
+// @borderRadiusMap: 3;
+// @bottomMap: 0;
+// @rightMap: 0;
+
+
+.Loop(@key, @list, @i: 1) when (@i <= length(@list)) {
+    @item: extract(@list, @i);
+    .@{key}@{item} {
+      font-size: @item + 0px;
+    }
+    .Loop(@key, @list, @i + 1);
+}
+.Loop(fs, @fsMap);
+
+
+// @each $len in $mrMap {
+//     .mr#{$len} {
+//         margin-right: #{$len}px;
+//     }
+// }
+
+// @each $len in $mlMap {
+//     .ml#{$len} {
+//         margin-left: #{$len}px;
+//     }
+// }
+
+// @each $len in $mtMap {
+//     .mt#{$len} {
+//         margin-top: #{$len}px;
+//     }
+// }
+
+// @each $len in $mbMap {
+//     .mb#{$len} {
+//         margin-bottom: #{$len}px;
+//     }
+// }
+
+// @each $len in $fsMap {
+//     .fs#{$len} {
+//         font-size: #{$len}px;
+//     }
+// }
+
+// @each $len in $lhMap {
+//     .lh#{$len} {
+//         line-height: #{$len}px;
+//     }
+// }
+
+// @each $len in $widthMap {
+//     .w#{$len} {
+//         width: #{$len}px;
+//     }
+// }
+
+// @each $len in $ziMap {
+//     .zi#{$len} {
+//         z-index: #{$len};
+//     }
+// }
+
+// @each $len in $heightMap {
+//     .h#{$len} {
+//         height: #{$len}px;
+//     }
+// }
+
+// @each $len in $borderRadiusMap {
+//     .br#{$len} {
+//         border-radius: #{$len}px;
+//     }
+// }
+// @each $len in $bottomMap {
+//     .b#{$len} {
+//         bottom: #{$len}px;
+//     }
+// }
+// @each $len in $rightMap {
+//     .r#{$len} {
+//         right: #{$len}px;
+//     }
+// }

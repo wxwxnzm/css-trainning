@@ -4,7 +4,6 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    "_qs@6.3.2@qs": "^6.3.2",
     "abbrev": "^1.1.1",
     "ajv": "^5.5.1",
     "amdefine": "^1.0.1",
@@ -172,6 +171,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-less": "^3.5.0",
     "gulp-sass": "^3.2.1",
     "node-sass": "^4.7.2"
   },
